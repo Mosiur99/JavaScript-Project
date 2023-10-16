@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Engine</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <section class="container">
+        <form>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" id = "search-item" placeholder = "Search products" onkeyup = "search()">
+        </form>
+
+        <div class="product-list" id = "product-list">
+            <div class="product">
+                <img src="img/shirt1.jpg" alt="">
+                <div class="p-details">
+                    <h2>Shirt Number 1</h2>
+                    <h3>৳525</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/shirt2.jpeg" alt="">
+                <div class="p-details">
+                    <h2>Shirt Number 2</h2>
+                    <h3>৳525</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/shirt3.jpeg" alt="">
+                <div class="p-details">
+                    <h2>Shirt Number 3</h2>
+                    <h3>৳525</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/shirt3.jpeg" alt="">
+                <div class="p-details">
+                    <h2>Shirt Number 4</h2>
+                    <h3>৳525</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/shirt5.jpeg" alt="">
+                <div class="p-details">
+                    <h2>Shirt Number 5</h2>
+                    <h3>৳525</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/shirt6.jpg" alt="">
+                <div class="p-details">
+                    <h2>Shirt Number 6</h2>
+                    <h3>৳525</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/shirt3.jpeg" alt="">
+                <div class="p-details">
+                    <h2>Shirt Number 7</h2>
+                    <h3>৳525</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/shirt8.webp" alt="">
+                <div class="p-details">
+                    <h2>Shirt Number 8</h2>
+                    <h3>৳525</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/shirt9.jpg" alt="">
+                <div class="p-details">
+                    <h2>Shirt Number 9</h2>
+                    <h3>৳525</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/shirt10.jpg" alt="">
+                <div class="p-details">
+                    <h2>Shirt Number 10</h2>
+                    <h3>৳525</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/pant1.jpg" alt="">
+                <div class="p-details">
+                    <h2>Pant Number 1</h2>
+                    <h3>৳1025</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/pant2.jpeg" alt="">
+                <div class="p-details">
+                    <h2>Pant Number 2</h2>
+                    <h3>৳1025</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/pant3.jpeg" alt="">
+                <div class="p-details">
+                    <h2>pant Number 3</h2>
+                    <h3>৳1025</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/pant4.jpeg" alt="">
+                <div class="p-details">
+                    <h2>Pant Number 4</h2>
+                    <h3>৳1025</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/pant5.jpeg" alt="">
+                <div class="p-details">
+                    <h2>Pant Number 5</h2>
+                    <h3>৳1025</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/pant6.jpeg" alt="">
+                <div class="p-details">
+                    <h2>Pant Number 6</h2>
+                    <h3>৳1025</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/pant7.jpeg" alt="">
+                <div class="p-details">
+                    <h2>Pant Number 7</h2>
+                    <h3>৳1025</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/pant8.jpeg" alt="">
+                <div class="p-details">
+                    <h2>Pant Number 8</h2>
+                    <h3>৳1025</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/pant9.jpeg" alt="">
+                <div class="p-details">
+                    <h2>Pant Number 9</h2>
+                    <h3>৳1025</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/pant10.jpeg" alt="">
+                <div class="p-details">
+                    <h2>Pant Number 10</h2>
+                    <h3>৳1025</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/shoe1.jpeg" alt="">
+                <div class="p-details">
+                    <h2>Shoe Number 1</h2>
+                    <h3>৳725</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/shoe2.jpeg" alt="">
+                <div class="p-details">
+                    <h2>Shoe Number 2</h2>
+                    <h3>৳725</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/shoe3.jpeg" alt="">
+                <div class="p-details">
+                    <h2>Shoe Number 3</h2>
+                    <h3>৳725</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/shoe4.jpeg" alt="">
+                <div class="p-details">
+                    <h2>Shoe Number 4</h2>
+                    <h3>৳725</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/shoe5.jpeg" alt="">
+                <div class="p-details">
+                    <h2>Shoe Number 5</h2>
+                    <h3>৳725</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/shoe6.jpeg" alt="">
+                <div class="p-details">
+                    <h2>Shoe Number 6</h2>
+                    <h3>৳725</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/shoe7.jpeg" alt="">
+                <div class="p-details">
+                    <h2>Shoe Number 7</h2>
+                    <h3>৳725</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/shoe8.jpeg" alt="">
+                <div class="p-details">
+                    <h2>Shoe Number 8</h2>
+                    <h3>৳725</h3>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/shoe9.jpeg" alt="">
+                <div class="p-details">
+                    <h2>Shoe Number 9</h2>
+                    <h3>৳725</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src = "script.js"></script>
+</body>
+</html>
