@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="bcss/bootstrap.min.css">
+    <script src = "bjs/bootstrap.bundle.min.js"></script>
+    <script src = "bjs/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id = "card" class = "border rounded-4 text-center">
+        <div id = "search">
+            <input type="text" placeholder = "Enter city name" spellcheck = "false" class = "rounded-pill fs-6">
+            <button class = "rounded-circle"><img src="images/search.png" alt="search button"></button>
+        </div>
+
+        <div id = "error" class = "m-1 p-1 fs-6 text-start">
+            <p>Invalid city name</p>
+        </div>
+
+        <div id = "weather" class = "d-none">
+            <img src="images/rain.png" id = "weather-icon" class = "mt-3">
+            <h1 id = "temperature">26°C</h1>
+            <h2 id = "city">Dhaka</h2>
+
+            <div id = "details">
+                <div id = "col">
+                    <img src="images/humidity.png">
+                    <div>
+                        <p id = "humidity">65.8%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+
+                <div id = "col">
+                    <img src="images/wind.png">
+                    <div>
+                        <p id = "wind">0.005 km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src = "main.js"></script>
+</body>
+</html>
